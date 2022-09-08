@@ -1,0 +1,6 @@
+sls deploy
+sls deploy -v --stage prod
+sls deploy -f name                      - Deploy only func
+sls deploy invoke -f funcName --log
+sls logs -f name                        - To see logs for specific function
+sls remove                              - delete stack
